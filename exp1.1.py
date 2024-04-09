@@ -6,6 +6,10 @@ def sumofdigits(n):
         n=n//10
     return s
 n=int(input("enter value:"))
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+total=a+b
+print(a+b)
 print(sumofdigits(n))
 
 
